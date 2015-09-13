@@ -12,6 +12,9 @@ import org.springframework.web.bind.annotation.RestController;
 import com.mycompany.myapp.products.model.Product;
 import com.mycompany.myapp.products.service.ProductService;
 
+/**
+ * http://campus.codeschool.com/courses/shaping-up-with-angular-js/intro
+ */
 @RestController
 public class ProductsRestController {
 	

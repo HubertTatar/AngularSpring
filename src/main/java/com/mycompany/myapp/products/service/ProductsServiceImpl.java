@@ -23,8 +23,8 @@ public class ProductsServiceImpl implements ProductService {
 		a.setDate(new Date());
 		a.setDescription("Like sapphire");
 		Map<String, String> map = new HashMap<>();
-		map.put("full", "image/dodecahedron-01-full.jpg");
-		map.put("thumb", "image/dodecahedron-01-full.jpg");
+		map.put("full", "/resources/images/products/dodecahedron-01-full.jpg");
+		map.put("thumb", "/resources/images/products/dodecahedron-01-full.jpg");
 		a.setImages(map);
 		a.setPrice(4.33);
 		List<Review> revies = new ArrayList<>();
@@ -49,8 +49,8 @@ public class ProductsServiceImpl implements ProductService {
 		b.setDate(new Date());
 		b.setDescription("Gems, gems are truly outrageus.");
 		Map<String, String> mapb = new HashMap<>();
-		mapb.put("full", "image/dodecahedron-01-full.jpg");
-		mapb.put("thumb", "image/dodecahedron-01-full.jpg");
+		mapb.put("full", "/resources/images/products/dodecahedron-01-full.jpg");
+		mapb.put("thumb", "/resources/images/products/dodecahedron-01-full.jpg");
 		b.setImages(map);
 		b.setPrice(44.33);
 
@@ -63,8 +63,8 @@ public class ProductsServiceImpl implements ProductService {
 		c.setDate(new Date());
 		c.setDescription("Pentagonal gems are truly awesome!");
 		Map<String, String> mapc = new HashMap<>();
-		mapc.put("full", "image/dodecahedron-01-full.jpg");
-		mapc.put("thumb", "image/dodecahedron-01-full.jpg");
+		mapc.put("full", "/resources/images/products/dodecahedron-01-full.jpg");
+		mapc.put("thumb", "/resources/images/products/dodecahedron-01-full.jpg");
 		c.setImages(map);
 		c.setPrice(2.65);
 		
@@ -77,8 +77,8 @@ public class ProductsServiceImpl implements ProductService {
 		d.setDate(new Date());
 		d.setDescription("Smells like competitor");
 		Map<String, String> mapd = new HashMap<>();
-		mapd.put("full", "image/dodecahedron-01-full.jpg");
-		mapd.put("thumb", "image/dodecahedron-01-full.jpg");
+		mapd.put("full", "/resources/images/products/dodecahedron-01-full.jpg");
+		mapd.put("thumb", "/resources/images/products/dodecahedron-01-full.jpg");
 		d.setImages(map);
 		d.setPrice(6.65);
 		
@@ -91,8 +91,8 @@ public class ProductsServiceImpl implements ProductService {
 		e.setDate(new Date());
 		e.setDescription("Shine on crazy diamond.");
 		Map<String, String> mape = new HashMap<>();
-		mape.put("full", "image/dodecahedron-01-full.jpg");
-		map.put("thumb", "image/dodecahedron-01-full.jpg");
+		mape.put("full", "/resources/images/products/dodecahedron-01-full.jpg");
+		map.put("thumb", "/resources/images/products/dodecahedron-01-full.jpg");
 		e.setImages(map);
 		e.setPrice(6.66);
 		
